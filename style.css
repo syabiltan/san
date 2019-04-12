@@ -37,8 +37,10 @@ body, html {
 }
 
 .about-font {
-    font-size: 50pt;
+    font-size: 70pt;
     color: hotpink;
+    font-weight: 700;
+    line-height: 1;
 }
 
   #portfolio img {
@@ -67,7 +69,6 @@ body, html {
       color: gray;
   }
 
-
   .typewriter .type {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -77,6 +78,7 @@ body, html {
     animation: 
       typing 3.5s steps(40, end),
       blink-caret .75s step-end infinite;
+      color: yellow;
   }
   
   /* The typing effect */
