@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("assets/banner/1_banner.png");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#intro-row {
+    background-color:white;
+}
+.intro {
+    font-size: 65pt;
+    color: black;
+}
+
+.intro-secondary {
+    display: inline-block;
+}
+
+#portfolio {
+    background: #0e0e0e;
+}
+
+.portfolio-font {
+    font-size: 40pt;
+    color: white;
+}
+
+.about-font {
+    font-size: 50pt;
+    color: hotpink;
+}
+
+  #portfolio img {
+      width: 300px;
+      margin: 3px;
+  }
+
+  #contact {
+      background-image: url("assets/osb_background.jpg")
+  }
+
+  .contact-font {
+    font-size: 50pt;
+      color: black;
+  }
+
+  #contact a {
+      margin: 10px;
+  }
+
+  #close {
+      background-color: black;
+  }
+
+  #close p {
+      color: gray;
+  }
+
+
+  .typewriter .type {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
